@@ -52,7 +52,7 @@ ReleaseKeys.releaseProcess := Seq[ReleaseStep](
 
 publishArtifact in Test := false
 
-pomExtra := githubPom(name.value,"$github_user_name$","$github_user_id$")
+pomExtra := githubPom(name.value, "$github_user_name$", "$github_user_id$")
 
 publishTo := publishRepoForVersion(version.value)
 
