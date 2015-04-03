@@ -15,10 +15,6 @@ crossScalaVersions := Seq("2.10.4", "2.11.6")
 
 scalaVersion := "2.11.6"
 
-resolvers ++= Seq(
-  "Sonatype OSS Releases" at "http://oss.sonatype.org/content/repositories/releases/"
-)
-
 buildInfoSettings
 
 buildInfoKeys := Seq[BuildInfoKey](
